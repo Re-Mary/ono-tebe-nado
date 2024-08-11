@@ -4,7 +4,6 @@
 
 .header {
     display: flex;
-/*    justify-content: space-between; */
     align-items: center;
     height: 293px;;
 }
@@ -106,12 +105,6 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 120px 20px 125px 50px;
-/*  padding-top: 70px; */
-/*    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 10px; */
-
 }
 
 .accent-span {
@@ -222,7 +215,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .card_title {
@@ -290,12 +282,6 @@
     display: flex;
     flex-direction: row;
     gap: 72px;
-/*    display: grid;
-    grid-template-columns: 240px 693px;
-    grid-template-rows: repeat(3, 240);
-    gap: 72px;
-    background-color: lightpink; */
-
     padding-left: 71px;
     margin-top: 70px;
 }
