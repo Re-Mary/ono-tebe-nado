@@ -375,17 +375,6 @@
   padding-left: 52px;
 }
 
-.contacts_address {
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 135%;
-  color: #000;
-  text-underline-offset: 4px;
-}
-
 .footer_menu {
   font-weight: 400;
   font-size: 18px;
