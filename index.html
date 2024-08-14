@@ -42,14 +42,16 @@
 
       <section class="contacts">
         <address class="contacts_address">
-          <a class="contacts_address-phone" href="tel:+99995555555"
+          <!--changed---->
+          <a class="contacts_address-underlined" href="tel:+99995555555"
             >+9 999 555 5555</a
           >
-          <a class="contacts_address-email" href="mailto:info@sobaka.ge"
+          <a class="contacts_address-underlined" href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
           >
         </address>
-        <p class="contacts_adress-street">
+        <p class="contacts_adress-no-underline">
+          <!--changed-->
           наб. Принсенграхт 263- 265, Амстердам
         </p>
       </section>
@@ -58,9 +60,11 @@
     <main class="content">
       <section class="cover">
         <!-- image as background add at CSS -->
-        <section class="background">
-          <section class="overlay"></section>
-        </section>
+        <div class="background">
+          <!--changed-->
+          <div class="overlay"></div>
+          <!--changed-->
+        </div>
         <h1 class="cover_title">
           <span class="accent-span aligned-text"
             >о<span class="cover_title-spacing">но</span></span
@@ -77,9 +81,9 @@
         </h1>
         <div class="cover_bottom-block">
           <p class="cover_text">Аукцион вещей, в которые никто не верил</p>
-          <button class="bet-button">
+          <button class="bet-button" type="button">
+            <!--changed-->
             Сделать ставку
-            <!-- or made as a block text with border -->
           </button>
         </div>
       </section>
@@ -88,66 +92,69 @@
         <h2 class="lots_title">Лоты</h2>
         <ul class="card_list">
           <li>
-            <!-- Needs OVERLAY! -->
-            <article class="card first_card">
-              <!--image as a background in CSS -->
-              <section class="overlay"></section>
-              <h3 class="card_title">
-                <a class="card-title_link" href="#0"
-                  >Фильм режиссёра, который бросил киношколу</a
-                >
-              </h3>
-              <div class="card-text">
-                <p>
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                  ставка, если бы вы не знали, что режиссёр — Пол Томас
-                  Андерсон?
-                </p>
-              </div>
-            </article>
+            <a href="#0">
+              <article class="card card_paul-anderson">
+                <!--changed-->
+                <!--image as a background in CSS -->
+                <div class="overlay"></div>
+                <!--changed-->
+                <h3 class="card_title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <div class="card-text">
+                  <p>
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                    ставка, если бы вы не знали, что режиссёр — Пол Томас
+                    Андерсон?
+                  </p>
+                </div>
+              </article>
+            </a>
           </li>
           <li>
-            <article class="card second_card">
-              <!--image as a background in CSS -->
-              <section class="overlay"></section>
-              <h3 class="card_title">
-                <a class="card-title_link" href="#0"
-                  >Книга, где описан один скучный день из жизни рекламного
-                  агента</a
-                >
-              </h3>
-              <div class="card-text">
-                <p>
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                  с переходами на древнеанглийский. В ней одновременно
-                  рассказывается о 16 июня 1904 года и об истории литературы,
-                  начиная с античных времён. И это всё накладывается на
-                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                  Джеймса Джойса?
-                </p>
-              </div>
-            </article>
+            <a href="#0">
+              <article class="card card_james-joyce">
+                <!--changed-->
+                <!--image as a background in CSS -->
+                <div class="overlay"></div>
+                <!--changed-->
+                <h3 class="card_title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <div class="card-text">
+                  <p>
+                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
+                    и с переходами на древнеанглийский. В ней одновременно
+                    рассказывается о 16 июня 1904 года и об истории литературы,
+                    начиная с античных времён. И это всё накладывается на
+                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                    Джеймса Джойса?
+                  </p>
+                </div>
+              </article>
+            </a>
           </li>
           <li>
-            <article class="card third_card">
-              <!--image as a background in CSS -->
-              <section class="overlay"></section>
-              <h3 class="card_title">
-                <a class="card-title_link" href="#0"
-                  >Картина, которую повторит даже 5-летний сын маминой
-                  подруги</a
-                >
-              </h3>
-              <div class="card-text">
-                <p>
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков<span class="card-text-extended">...</span> Сколько бы
-                  вы на такое поставили, если бы не знали, что это — одна из
-                  революционных работ Кандинского?
-                </p>
-              </div>
-            </article>
+            <a href="#0">
+              <article class="card card_vasily-kandinsky">
+                <!--changed-->
+                <!--image as a background in CSS -->
+                <div class="overlay"></div>
+                <!--changed-->
+                <h3 class="card_title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <div class="card-text">
+                  <p>
+                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                    котиков<span class="card-text-extended">...</span> Сколько
+                    бы вы на такое поставили, если бы не знали, что это — одна
+                    из революционных работ Кандинского?
+                  </p>
+                </div>
+              </article>
+            </a>
           </li>
         </ul>
         <a class="lots_link" href="#0">посмотреть больше</a>
@@ -163,8 +170,10 @@
           />
         </div>
         <article class="about_text">
-          <h4 class="about_title">Об аукционе</h4>
-          <p class="about_paragraph first-paragraph">
+          <h2 class="about_title">Об аукционе</h2>
+          <!--changed-->
+          <p class="about_paragraph paragraph_small-spacing">
+            <!--changed-->
             Здесь вы не встретите очередное
             <span class="text-extended-normal"
               >пафосное собрание невероятно дорогого антиквариата.</span
@@ -202,19 +211,22 @@
     </main>
 
     <footer class="footer">
-      <section class="footer-contacts">
+      <div class="footer-contacts">
+        <!--changed-->
         <address class="address contacts_address">
-          <a class="contacts_address-phone" href="tel:+99995555555"
+          <!--changed-->
+          <a class="contacts_address-underlined" href="tel:+99995555555"
             >+9 999 555 5555</a
           >
-          <a class="contacts_address-email" href="mailto:info@sobaka.ge"
+          <a class="contacts_address-underlined" href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
           >
         </address>
-        <p class="contacts_adress-street">
+        <p class="contacts_adress-no-underline">
+          <!--changed-->
           наб. Принсенграхт 263- 265, Амстердам
         </p>
-      </section>
+      </div>
 
       <nav class="footer_menu">
         <ul class="footer_menu-list">
@@ -230,18 +242,13 @@
         </ul>
       </nav>
 
-      <section class="socials">
+      <div class="socials">
+        <!--changed-->
         <a class="socials-link" href="#0">
-          <img 
-            class="socials_icon" 
-            src="./images/yt.svg" 
-            alt="Icon YouTube" />
+          <img class="socials_icon" src="./images/yt.svg" alt="Icon YouTube" />
         </a>
         <a class="socials-link" href="#0">
-          <img 
-            class="socials_icon" 
-            src="./images/vk.svg" 
-            alt="Icon VK" />
+          <img class="socials_icon" src="./images/vk.svg" alt="Icon VK" />
         </a>
         <a class="socials-link" href="#0">
           <img
@@ -250,7 +257,7 @@
             alt="Icon Pinterest"
           />
         </a>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
