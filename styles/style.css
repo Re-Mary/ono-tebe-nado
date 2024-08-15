@@ -5,7 +5,7 @@
 .header {
   display: flex;
   align-items: center;
-  min-height: 293px; /* changed */
+  margin: 92px auto; /* changed */
 }
 
 .header_menu-list {
@@ -14,7 +14,7 @@
   gap: 32px;
   list-style: circle;
   text-underline-offset: 4px;
-  padding: 0 46px;
+  padding: 0 44px 0 48px;
 }
 
 .header_menu-link {
@@ -63,15 +63,15 @@
 /* SECOND BLOCK Cover*/
 
 .cover {
-  min-height: 757px; /* changed */
+  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
-  z-index: 0; /* changed */
+  z-index: 0;
   display: grid;
-  padding: 50px 50px 0px 50px; /* changed, was 52px 0px 20px 0px; */
+  padding: 50px 50px 0px 50px;
 }
 
 .background {
@@ -80,7 +80,7 @@
 
 .background_image {
   width: 100%;
-  min-width: 1100px; /* changed */
+  min-width: 1100px;
 }
 
 .overlay {
@@ -89,15 +89,15 @@
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
   background-size: cover;
-  z-index: 1; /* changed */
+  z-index: 1;
   position: absolute;
 }
 
 .cover_title {
-  min-height: 355px;
+  /*changed*/
   font-weight: 700;
   font-size: 100px;
-  letter-spacing: 30px; /* changed, was 0.3em*/
+  letter-spacing: 30px;
   text-transform: uppercase;
   color: #fff;
   line-height: 1.15;
@@ -105,12 +105,12 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
-  padding: 115px 0px 120px; /* changed, was   margin: 110px 30px 130px 50px;*/
+  padding: 115px 0px 120px;
 }
 
 .accent-span {
   display: block;
-  z-index: 2; /* chnaged */
+  z-index: 2;
 }
 
 .aligned-text-center {
@@ -124,18 +124,18 @@
 }
 
 .cover_title-spacing {
-  letter-spacing: 60px; /* changed, was 0.6em */
+  letter-spacing: 60px;
 }
 
 .cover_title-no-spacing {
-  letter-spacing: initial; /* changed, was unset */
+  letter-spacing: initial;
 }
 
 .cover_bottom-block {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; /* space-around; */
-  z-index: 3; /* changed */
+  justify-content: space-between;
+  z-index: 3;
   padding: 15px 0 50px;
 }
 
@@ -146,13 +146,13 @@
   text-transform: uppercase;
   color: #fff;
   word-spacing: 0.9em;
-  z-index: 3; /* changed*/
-  padding-top: 10px;
+  z-index: 3;
+  padding-top: 12px;
   padding-left: 25px;
 }
 
 .bet-button {
-  font-family: Raleway, sans-serif; /* changed*/
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
@@ -187,19 +187,22 @@
 
 .card_list {
   display: flex;
-  flex-wrap: row wrap; /* changed*/
+  flex-wrap: wrap; /* changed*/
   gap: 25px;
-  justify-content: space-evenly;
   list-style: none;
 }
 
+.card_link {
+  text-decoration: none; /* new, changed */
+}
+
 .card {
-  min-width: 334px;
+  width: 334px; /* changed */
   min-height: 563px;
   margin-bottom: 28px;
   padding: 52px 40px 25px 40px;
   display: flex;
-  background-repeat: no-repeat; /* changed */
+  background-repeat: no-repeat;
   background-position: center;
   position: relative;
   z-index: 0;
@@ -208,7 +211,7 @@
 }
 
 .card_paul-anderson {
-  background-image: url(../images/card-lot-01.jpg); /*changed*/
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_title {
@@ -220,7 +223,7 @@
   text-decoration-skip-ink: none;
   color: #fff;
   position: relative;
-  z-index: 1; /* changed */
+  z-index: 1;
 }
 
 .card-text {
@@ -231,7 +234,7 @@
   position: relative;
   padding-bottom: 20px;
   letter-spacing: normal;
-  z-index: 1; /* added */
+  z-index: 1;
 }
 
 .card_james-joyce {
@@ -265,31 +268,22 @@
 }
 
 .about_logo {
-  display: grid;
-  place-content: start;
-  padding-top: 115px;
-}
-
-.about_logo-background {
+  /*changed*/
   min-width: 240px;
-  min-height: 240px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: flex-start;
+  height: 240px;
   background-color: black;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 100%;
+  display: flex;
+  margin-top: 115px;
+  align-items: center;
+  justify-content: center;
 }
-
 .about_logo-white {
+  /*changed*/
   width: 148px;
   height: auto;
-  display: flex;
-  z-index: 1;
-  margin-top: -180px;
-  margin-left: 48px; /* changed*/
 }
 
 .about_title {
